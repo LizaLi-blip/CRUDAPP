@@ -10,7 +10,7 @@ app.use(express.json());
 app.use(cors());
 
 // Conexión a MongoDB
-mongoose.connect('mongodb+srv://andreayocupicio13:<X2H3xQyT1L0hjw0u>@clusteralys.1st28.mongodb.net/?retryWrites=true&w=majority&appName=ClusterALYS', {
+mongoose.connect('mongodb+srv://andreayocupicio13:<JN_Qw5JdsGFwqd9>@clusteralys.1st28.mongodb.net/?retryWrites=true&w=majority&appName=ClusterALYS', {
     useNewUrlParser: true,
     useUnifiedTopology: true,
 })
